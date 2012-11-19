@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarX.Common", "StarX.Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarX.Common.Test", "StarX.Common.Test\StarX.Common.Test.csproj", "{4EE91A82-AA0C-4458-BDDA-EF8262A5BFC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configs", "configs", "{A3C1AE49-CCAA-493D-919E-698F89290197}"
+	ProjectSection(SolutionItems) = preProject
+		configs\NLog.config = configs\NLog.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
